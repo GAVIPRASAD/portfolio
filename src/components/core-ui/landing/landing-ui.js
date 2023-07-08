@@ -8,6 +8,7 @@ import './landing.css';
 import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
+import { PiCertificate } from "react-icons/pi";
 import { contactsData } from '../../../data/contactsData';
 
 function LandingUI({ theme, drawerOpen, classes }) {
@@ -70,6 +71,19 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     className='landing--social facebook-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='facebook'
+                                />
+                            </a>
+                        )}
+                        {contactsData.certificates && (
+                            <a
+                                href={contactsData.certificates}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <PiCertificate
+                                    className='landing--social facebook-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='PiCertificate'
                                 />
                             </a>
                         )}
