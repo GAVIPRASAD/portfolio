@@ -8,7 +8,6 @@ export const skillsData = [
     'Docker',
     'NodeJS',
     'Bootstrap',
-    'Ubuntu',
     'MongoDB',
     'MySQL',
     'MaterialUI',

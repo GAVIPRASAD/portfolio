@@ -8,7 +8,7 @@ import './landing.css';
 import {
     FaFacebook, FaGithub, FaLinkedin, FaTwitter
 } from 'react-icons/fa';
-import { PiCertificate } from "react-icons/pi";
+import { TbCertificate } from "react-icons/tb";
 import { contactsData } from '../../../data/contactsData';
 
 function LandingUI({ theme, drawerOpen, classes }) {
@@ -80,7 +80,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <PiCertificate
+                                <TbCertificate
                                     className='landing--social facebook-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='PiCertificate'
